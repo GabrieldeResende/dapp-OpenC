@@ -1,0 +1,17 @@
+{
+  "author": "Resende",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx hardhat coverage",
+    "deploy": "npx hardhat run scripts/deploy.ts --network matictestnet",
+    "ignition": "npx hardhat ignition deploy ignition/modules/OpenC.ts --network matictestnet"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
