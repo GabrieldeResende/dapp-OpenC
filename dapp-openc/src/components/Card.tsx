@@ -12,7 +12,7 @@ function Card(props: Props) {
         <div className="px-3 w-full md:w-6/12 lg:w-4/12">
             <div className="bg-white overflow-hidden rounded-xl text-gray-500">
                 <Link href={`/details/${props.nft.itemId}`} className="block group relative">
-                    <Image src={props.nft.image} className="group-hover:opacity-90 w-full" alt="..." width="600" height="600" />
+                    <Image src={props.nft.image} className="group-hover:opacity-90 max-h-80 w-full" alt="..." width="600" height="600" />
                 </Link>
                 <div className="px-4 py-6 sm:px-6">
                     <div className="flex items-center justify-between">
